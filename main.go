@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "suprasys:v101"
+const webContent = "suprasys-gestao:v102"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
